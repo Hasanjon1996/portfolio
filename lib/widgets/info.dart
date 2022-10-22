@@ -14,10 +14,6 @@ class Info extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-              '• I’m studying informatics engineering at the University Of Aleppo.',
-              style: GoogleFonts.getFont('Delius',
-                  color: CustomColors.gray, fontSize: 13)),
           const SizedBox(height: 20),
           Text('• The Only thing that makes me feel happy is coding.',
               style: GoogleFonts.getFont('Delius',
@@ -25,6 +21,11 @@ class Info extends StatelessWidget {
           const SizedBox(height: 20),
           Text(
               '• I always try to discover the new and the best technologies and use them to make my client feel comfortable and satisfied. ',
+              style: GoogleFonts.getFont('Delius',
+                  color: CustomColors.gray, fontSize: 13)),
+          const SizedBox(height: 20),
+          Text(
+              '• Flutter, Durt, Database Sqflite, Bloc, Cubit, Provider, RestApi. ',
               style: GoogleFonts.getFont('Delius',
                   color: CustomColors.gray, fontSize: 13)),
         ],

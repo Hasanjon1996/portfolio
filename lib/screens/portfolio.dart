@@ -32,24 +32,9 @@ class _PortfolioState extends State<Portfolio> {
 
     intrests = [
       {
-        'intrest': 'Beatbox',
+        'intrest': 'Read books',
         'color': CustomColors.primary,
         'textColor': CustomColors.darkBackground,
-      },
-      {
-        'intrest': 'Chess',
-        'color': CustomColors.brightBackground,
-        'textColor': CustomColors.primary,
-      },
-      {
-        'intrest': 'Soccer',
-        'color': CustomColors.primary,
-        'textColor': CustomColors.darkBackground,
-      },
-      {
-        'intrest': 'Listening to music',
-        'color': CustomColors.brightBackground,
-        'textColor': CustomColors.primary,
       },
       {
         'intrest': 'Watching movies',
@@ -57,19 +42,14 @@ class _PortfolioState extends State<Portfolio> {
         'textColor': CustomColors.primary,
       },
       {
-        'intrest': 'Math',
+        'intrest': 'Learning English',
         'color': CustomColors.primary,
         'textColor': CustomColors.darkBackground,
-      },
-      {
-        'intrest': 'Learning English',
-        'color': CustomColors.brightBackground,
-        'textColor': CustomColors.primary,
       },
       {
         'intrest': 'Solving Problems',
-        'color': CustomColors.primary,
-        'textColor': CustomColors.darkBackground,
+        'color': CustomColors.brightBackground,
+        'textColor': CustomColors.primary,
       },
     ];
 

@@ -23,15 +23,6 @@ class KhalidImage extends StatelessWidget {
           ),
         ),
         Positioned(
-          top: width * 0.17,
-          left: 0,
-          child: Image.asset(
-            ImageAssetConstants.pythonCircle,
-            width: width * 0.07,
-            height: width * 0.07,
-          ),
-        ),
-        Positioned(
           top: width * 0.19,
           right: width * 0.010,
           child: Image.asset(

@@ -26,7 +26,7 @@ class Description extends StatelessWidget {
               alignment: Alignment.center,
               color: CustomColors.primary,
               child: Center(
-                  child: Text('Software Engineer',
+                  child: Text('Flutter developer',
                       style: GoogleFonts.getFont('Days One',
                           color: Colors.black, fontSize: 10)))),
           SizedBox(height: 0.015 * width),
@@ -46,7 +46,7 @@ class Description extends StatelessWidget {
               pause: const Duration(seconds: 2),
               animatedTexts: [
                 TyperAnimatedText(
-                    "I'm developing mobile,frontend and backend applications",
+                    "I'm developing mobile applications",
                     textAlign: isVertical ? TextAlign.center : TextAlign.start,
                     textStyle: GoogleFonts.getFont('Delius',
                         color: CustomColors.gray,
@@ -56,7 +56,7 @@ class Description extends StatelessWidget {
           ),
           InkWell(
             onTap: () async => !await launch(
-                'https://mail.google.com/mail/u/0/?fs=1&to=khalidlionel.2089@gmail.com&tf=cm'),
+                'https://t.me/Hasanjon_1996'),
             child: Text("Let's chat",
                 style: GoogleFonts.getFont('Delius',
                     decoration: TextDecoration.underline,

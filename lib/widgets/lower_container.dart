@@ -45,7 +45,7 @@ class LowerContainer extends StatelessWidget {
                         SkillCard(
                           title: 'Flutter Development',
                           description:
-                              'I’m developing android,ios and web applications using flutter platform.',
+                              'I’m developing android and ios applications using flutter platform.',
                           icon: ImageAssetConstants.flutter,
                           width: width,
                           ratio: 0.35,
@@ -54,19 +54,12 @@ class LowerContainer extends StatelessWidget {
                         SkillCard(
                           title: 'Backend Development',
                           description:
-                              'I’m developing backend applications using codnuit and spring boot with a good knowledge in nodejs.',
+                              'I\'m going to learn Go lang in the future',
                           icon: ImageAssetConstants.backendIcon,
                           width: width,
                           ratio: 0.35,
                         ),
                         const SizedBox(height: 10),
-                        SkillCard(
-                            title: 'Python Development',
-                            description:
-                                'I’m developing maching learing and deep learning projects using standard python libraries and tensorflow api.',
-                            icon: ImageAssetConstants.python,
-                            width: width,
-                            ratio: 0.35),
                       ],
                     ),
                     SizedBox(width: 0.05 * width),
@@ -97,7 +90,7 @@ class LowerContainer extends StatelessWidget {
                         SkillCard(
                             title: 'Flutter Development',
                             description:
-                                'I’m developing android,ios and web applications using flutter platform.',
+                                'I’m developing android,ios applications using flutter platform.',
                             icon: ImageAssetConstants.flutter,
                             width: 2 * width,
                             ratio: 0.45),
@@ -105,18 +98,11 @@ class LowerContainer extends StatelessWidget {
                         SkillCard(
                             title: 'Backend Development',
                             description:
-                                'I’m developing backend applications using codnuit and spring boot with a good knowledge in nodejs.',
+                                'I’m going to learn Go lang in the future',
                             icon: ImageAssetConstants.backendIcon,
                             width: 2 * width,
                             ratio: 0.45),
                         const SizedBox(height: 10),
-                        SkillCard(
-                            title: 'Python Development',
-                            description:
-                                'I’m developing maching learing and deep learning projects using standard python libraries and tensorflow api.',
-                            icon: ImageAssetConstants.python,
-                            width: 2 * width,
-                            ratio: 0.45),
                       ],
                     ),
                     // hello with bio and info
@@ -156,7 +142,7 @@ class LowerContainer extends StatelessWidget {
                   height: 100,
                   child: StaggeredGridView.countBuilder(
                     crossAxisCount: 8,
-                    itemCount: 8,
+                    itemCount: 4,
                     itemBuilder: (BuildContext context, int index) => Intrest(
                       intrest: intrests[index]['intrest'],
                       color: intrests[index]['color'],

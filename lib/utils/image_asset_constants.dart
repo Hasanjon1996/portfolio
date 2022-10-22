@@ -1,5 +1,5 @@
 class ImageAssetConstants{
-  static const String logo='assets/images/logo.png';
+  static const String logo='assets/images/img.png';
   static const String github='assets/images/github.png';
   static const String facebook='assets/images/facebook.png';
   static const String linkedIn='assets/images/linkedIn.png';
@@ -9,6 +9,6 @@ class ImageAssetConstants{
   static const String pythonCircle='assets/images/python_circle.png';
   static const String java='assets/images/java.png';
   static const String python='assets/images/python.png';
-  static const String khalid='assets/images/khalid.png';
+  static const String khalid='assets/images/hasan.png';
   static const String backendIcon='assets/images/backend_icon.png';
 }
