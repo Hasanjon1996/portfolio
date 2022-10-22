@@ -56784,8 +56784,8 @@ A.k2.prototype={
 M(a,b){var s=null,r=this.d,q=new A.di(r.k(0,B.y)?B.Z:r,1,B.bx)
 return A.cA(s,A.Q6(A.cu(this.e,A.cY("Delius",r,s,13),s,s),s,s),B.z,s,s,new A.e3(this.c,s,new A.d5(q,q,q,q),s,s,s,B.aw),s,s,s,s,B.xK,s,s,170)}}
 A.oy.prototype={
-M(a,b){var s=null,r=this.c,q=r*0.19,p=r*0.01,o=r*0.06,n=r*0.007,m=r*0.012
-return A.kF(B.aj,A.e([A.cA(s,A.Jw("assets/images/hasan.png",r*0.3,r*0.29),B.z,s,B.u2,s,s,s,s,s,s,s,s,s),A.j_(s,A.Jw("assets/images/flutter_circle.png",r*0.08,r*0.083),s,s,s,p,q,s),A.j_(s,A.Jw("assets/images/java_circle.png",r*0.058,o),s,s,s,r*0.016,o,s),A.j_(s,A.cA(s,s,B.z,s,s,B.u7,s,n,s,s,s,s,s,n),s,s,r*0.025,s,r*0.04,s),A.j_(s,A.cA(s,s,B.z,s,s,B.u5,s,n,s,s,s,s,s,n),s,s,s,1,q,s),A.j_(s,A.cA(s,s,B.z,s,s,B.u3,s,n,s,s,s,s,s,n),s,s,r*0.03,s,r*0.28,s),A.j_(s,A.cA(s,s,B.z,s,s,B.u6,s,m,s,s,s,s,s,m),s,s,s,1,p,s)],t.p),B.b5)}}
+M(a,b){var s=null,r=this.c,q=r*0.19,p=r*0.01,o=r*0.007,n=r*0.012
+return A.kF(B.aj,A.e([A.cA(s,A.Jw("assets/images/hasan.png",r*0.3,r*0.29),B.z,s,B.u2,s,s,s,s,s,s,s,s,s),A.j_(s,A.Jw("assets/images/flutter_circle.png",r*0.08,r*0.083),s,s,s,p,q,s),A.j_(s,A.Jw("assets/images/java_circle.png",r*0.058,r*0.06),s,s,s,p,r*0.05,s),A.j_(s,A.cA(s,s,B.z,s,s,B.u7,s,o,s,s,s,s,s,o),s,s,r*0.025,s,r*0.04,s),A.j_(s,A.cA(s,s,B.z,s,s,B.u5,s,o,s,s,s,s,s,o),s,s,s,1,q,s),A.j_(s,A.cA(s,s,B.z,s,s,B.u3,s,o,s,s,s,s,s,o),s,s,r*0.03,s,r*0.28,s),A.j_(s,A.cA(s,s,B.z,s,s,B.u6,s,n,s,s,s,s,s,n),s,s,s,1,p,s)],t.p),B.b5)}}
 A.oC.prototype={
 M(a,b){var s=null,r=this.c,q=r>=950,p=q?r*0.14:133
 return A.S7(!1,!0,A.SJ(A.Jw("assets/images/img.png",q?0.04*r:38,p),B.jE,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,new A.a8i(this),s,s,s)}}

@@ -13,7 +13,6 @@ void main() {
      CustomColors.primary,
      splashColor: CustomColors.primary,
      highlightColor:CustomColors.primary,
-     
      ),
     title: 'Khasanjon aliyev',
     home: const Portfolio(),
